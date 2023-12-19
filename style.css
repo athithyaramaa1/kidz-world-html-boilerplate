@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+.main-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 60px;
+}
+
+.-cart-shopping {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.kidz-world-logo {
+    margin-left: 25%;
+}
+
+.bg-image {
+  background-image: url(assets/kw-background.png);
+  width: 100%;
+  height: 480px;
+  background-size: cover;
+}
+
+.bg-img-text {
+  color: azure;
+  font-size: 3rem;
+  padding-left: 60px;
+  padding-top: 90px;
+}
+
+.bg-img-text h4 {
+  font-size: 2rem;
+}
+
+.heading-1 {
+  margin-left: 40px;
+}
+
+.heading-1 h1 {
+  font-weight: 100;
+}
+
+.book-container {
+  margin-top: 100px;
+  margin-left: 50px;
+}
+
+.books {
+  display: grid;
+  grid-template-columns: repeat(6, 164px);
+  grid-gap: 50px;
+  margin-left: 40px;
+}
+
+.fa-cart-shopping{
+    font-size: 2rem;
+}
+
+.games {
+  display: grid;
+  grid-template-columns: repeat(4, 150px);
+  grid-gap: 200px;
+  margin-left: 40px;
+}
+
+.handmade-items {
+  display: grid;
+  grid-template-columns: repeat(4, 150px);
+  grid-gap: 200px;
+  margin-left: 40px;
+}
+
+h6 {
+  color: gray;
+  font-weight: 100;
+}
+
+.lastpart {
+  width: 1519px;
+  height: 300px;
+  background-color: black;
+  margin-top: 200px;
+}
+
+.lastpart section h3 {
+  color: azure;
+  font-size: 2rem;
+  margin-left: 5%;
+  font-weight: 300;
+}
+
+.krishtiimage {
+  background-image: url(assets/krishti.png);
+  width: 20%;
+  height: 200px;
+  background-size: cover;
+  margin-left: 5%;
+  border-radius: 100%
+}
+
+.my-creds {
+  color: azure;
+  margin-left: 80%;
+  margin-top: -11%;
+  display: flex;
+  flex-direction: column;
+}
+
+.my-creds a {
+  color: azure;
+}
+
+.buying-items {
+  display: flex;
+}
+
+button {
+  display: flex;
+  width: 80px;
+  margin-left: 60px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(43, 0, 255);
+  align-items: center;
+  justify-content: space-between;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+img {
+  border: 1.5px solid transparent;
+}
+
+img:hover {
+  border: 1.5px solid orangered;
+  cursor: pointer;
+}

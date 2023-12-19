@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kidz World</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="icon" href="data:image/jpeg;base64,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">
+  </head>
+  <body>
+    <nav class="main-nav">
+      <a
+        ><img
+          src="assets/kw-logo.png"
+          width="60%"
+          class="kidz-world-logo"
+      /></a>
+      <div class="c">
+        <i class="fa-solid fa-cart-shopping"></i>&nbsp;&nbsp;&nbsp;<span
+          >Cart Items(<span>0</span>)</span
+        >
+      </div>
+    </nav>
+
+    <section>
+      <div class="bg-image">
+        <div class="bg-img-text">
+          <h1>Shop.</h1>
+          <h1>Have Fun.</h1>
+          <h1>Repeat.</h1>
+          <h4>#NewAndNow</h4>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="entire-container">
+        <div class="book-container">
+          <div class="heading-1">
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <h1>Discover New Books</h1>
+          </div>
+          <div class="books">
+            <div>
+              <img
+                src="assets/book1.png"
+                width="100%"
+              />
+              <h4>This was our pact</h4>
+              <h6>Ryan Andrews</h6>
+              <br />
+              <div class="buying-items">
+                <h5>$7.49</h5>
+                <button><i class="fa-solid fa-cart-plus"></i>Add</button>
+              </div>
+            </div>
+            <div>
+              <img
+                src="assets/book2.png"
+                width="100%"
+              />
+              <h4>The Famous Five</h4>
+              <h6>Guid Blyton</h6>
+              <br />
+              <div class="buying-items">
+                <h5>$4.59</h5>
+                <button><i class="fa-solid fa-cart-plus"></i>Add</button>
+              </div>
+            </div>
+            <div>
+              <img
+                src="assets/book3.png"
+                width="100%"
+              />
+              <h4>Matilda</h4>
+              <h6>Roald Dahi</h6>
+              <br />
+              <div class="buying-items">
+                <h5>$6.80</h5>
+                <button><i class="fa-solid fa-cart-plus"></i>Add</button>
+              </div>
+            </div>
+            <div>
+              <img
+                src="assets/book4.png"
+                width="100%"
+              />
+              <h4>Harry Potter</h4>
+              <h6>JK Rowling</h6>
+              <br />
+              <div class="buying-items">
+                <h5>$10</h5>
+                <button><i class="fa-solid fa-cart-plus"></i>Add</button>
+              </div>
+            </div>
+            <div>
+              <img
+                src="assets/book5.png"
+                width="100%"
+              />
+              <h4>For Young Readers</h4>
+              <h6>Ruskin Bond</h6>
+              <br />
+              <div class="buying-items">
+                <h5>$7.29</h5>
+                <button><i class="fa-solid fa-cart-plus"></i>Add</button>
+              </div>
+            </div>
+            <div>
+              <img
+                src="assets/book6.png"
+                width="100%"
+              />
+              <h4>Wimpy Kid - DIY</h4>
+              <h6>Jeff Kinney</h6>
+              <br />
+              <div class="buying-items">
+                <h5>$4.99</h5>
+                <button><i class="fa-solid fa-cart-plus"></i>Add</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="book-container">
+          <div class="heading-1"><h1>Discover New Games</h1></div>
+          <div class="games">
+            <div>
+              <img
+                src="dart-board.png"
+                width="120%"
+              />
+              <h4>Dart Board</h4>
+              <h6>Wooden Board, 16 inches</h6>
+              <br />
+              <div class="buying-items">
+                <h5>$17.49</h5>
+                <button><i class="fa-solid fa-cart-plus"></i>Add</button>
+              </div>
+            </div>
+            <div>
+              <img
+                src="assets/connect-four.png"
+                width="120%"
+              />
+              <h4>Connect Four</h4>
+              <h6>Board Game, Multiplayer</h6>
+              <br />
+              <div class="buying-items">
+                <h5>$19.99</h5>
+                <button><i class="fa-solid fa-cart-plus"></i>Add</button>
+              </div>
+            </div>
+            <div>
+              <img
+                src="assets/jenga.png"
+                width="120%"
+              />
+              <h4>Jenga</h4>
+              <h6>Wooden Blocks, 54 pieces</h6>
+              <br />
+              <div class="buying-items">
+                <h5>$20.99</h5>
+                <button><i class="fa-solid fa-cart-plus"></i>Add</button>
+              </div>
+            </div>
+            <div>
+              <img
+                src="assets/monopoly.png"
+                width="120%"
+              />
+              <h4>Monopoly</h4>
+              <h6>1.61 x 15.75 x 10.51 inches</h6>
+              <br />
+              <div class="buying-items">
+                <h5>$19.49</h5>
+                <button><i class="fa-solid fa-cart-plus"></i>Add</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="book-container">
+          <div class="heading-1"><h1>Handmade With Love</h1></div>
+          <div class="handmade-items">
+            <div>
+              <img
+                src="assets/birthday-card.png"
+                width="120%"
+              />
+              <h4>BirthDay Card</h4>
+              <h6>HandMade With Love</h6>
+              <br />
+              <div class="buying-items">
+                <h5>$12.49</h5>
+                <button><i class="fa-solid fa-cart-plus"></i>Add</button>
+              </div>
+            </div>
+
+            <div>
+              <img
+                src="assets/bookmarks.png"
+                width="120%"
+              />
+              <h4>Bookmarks</h4>
+              <h6>HandMade With Love</h6>
+              <br />
+              <div class="buying-items">
+                <h5>$19.99</h5>
+                <button><i class="fa-solid fa-cart-plus"></i>Add</button>
+              </div>
+            </div>
+
+            <div>
+              <img
+                src="assets/stuffed-toy.png"
+                width="120%"
+              />
+              <h4>Stuffed Toy</h4>
+              <h6>HandMade With Love</h6>
+              <br />
+              <div class="buying-items">
+                <h5>$15.59</h5>
+                <button><i class="fa-solid fa-cart-plus"></i>Add</button>
+              </div>
+            </div>
+
+            <div>
+              <img
+                src="assets/dream-catcher.png"
+                width="120%"
+              />
+              <h4>Dream Catcher Drawing</h4>
+              <h6>HandMade With Love</h6>
+              <br />
+              <div class="buying-items">
+                <h5>$18.49</h5>
+                <button><i class="fa-solid fa-cart-plus"></i>Add</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="lastpart">
+        <section class="lastpartsec">
+          <h3>Brought to You By</h3>
+          <div class="krishtiimage"></div>
+          <div class="my-creds">
+            <h4>V Athithya Ramaa</h4>
+            <p>
+              Made with love <i class="fa-solid fa-heart fa-beat"></i> by
+              Kalvian
+            </p>
+            <span
+              >Talk to me at
+              <a
+                href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJlHmTnPmcZJLXDDNCxnkQwVGbKXPskpVPtKBsxjvfJZtpvfXtrBrZXgpxtrmBwBDkKnwBB"
+                >athithya.ramaa@kalvium.community</a
+              ></span
+            >
+          </div>
+        </section>
+      </div>
+    </section>
+  </body>
+</html>
