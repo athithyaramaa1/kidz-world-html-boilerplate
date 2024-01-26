@@ -1,1 +1,1 @@
-# kidz-world-html-boilerplate
+# kidz-world-html-boilerplate + Added Mobile Responsiveness
