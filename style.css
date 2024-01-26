@@ -157,6 +157,12 @@ img:hover {
     padding-top: 50px;
   }
 
+  button {
+    width: 50px;
+    margin-left: 8px;
+    border: none;
+  }
+
   .heading-1 {
     margin-left: 15px;
   }
@@ -165,18 +171,19 @@ img:hover {
     margin-left: 15px;
   }
 
-  .books,
-  .games,
-  .handmade-items {
-    grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
-    grid-gap: 15px;
-    margin-left: 15px;
-  }
-
   .lastpart section h3 {
     font-size: 1.2rem;
     margin-left: 2%;
   }
+
+  .books,
+  .games,
+  .handmade-items {
+    grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+    grid-gap: 27px;
+    margin-left: 15px;
+  }
+
 
   .krishtiimage {
     width: 10%;
@@ -188,11 +195,5 @@ img:hover {
   .my-creds {
     margin-left: 1%;
     margin-top: 5%;
-  }
-
-  button {
-    width: 50px;
-    margin-left: 8px;
-    border: none;
   }
 }
